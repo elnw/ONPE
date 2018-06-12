@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ONPEModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Candidato">
+    <Key>
+      <PropertyRef Name="CandidatoId" />
+    </Key>
+    <Property Name="CandidatoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombres" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Apellidos" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="PartidoPoliticoId" Type="int" Nullable="false" />
+    <Property Name="DistritoId" Type="int" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Distrito">
+    <Key>
+      <PropertyRef Name="DistritoId" />
+    </Key>
+    <Property Name="DistritoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PartidoPolitico">
+    <Key>
+      <PropertyRef Name="PartidoPoliticoId" />
+    </Key>
+    <Property Name="PartidoPoliticoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="UsuariosId" />
+    </Key>
+    <Property Name="UsuariosId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombres" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellidos" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Codigo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Rol" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Candidato_Distrito">
+    <End Role="Distrito" Type="Self.Distrito" Multiplicity="1" />
+    <End Role="Candidato" Type="Self.Candidato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Distrito">
+        <PropertyRef Name="DistritoId" />
+      </Principal>
+      <Dependent Role="Candidato">
+        <PropertyRef Name="DistritoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Candidato_PartidoPolitico">
+    <End Role="PartidoPolitico" Type="Self.PartidoPolitico" Multiplicity="1" />
+    <End Role="Candidato" Type="Self.Candidato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PartidoPolitico">
+        <PropertyRef Name="PartidoPoliticoId" />
+      </Principal>
+      <Dependent Role="Candidato">
+        <PropertyRef Name="PartidoPoliticoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ONPEModelStoreContainer">
+    <EntitySet Name="Candidato" EntityType="Self.Candidato" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Distrito" EntityType="Self.Distrito" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PartidoPolitico" EntityType="Self.PartidoPolitico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Candidato_Distrito" Association="Self.FK_Candidato_Distrito">
+      <End Role="Distrito" EntitySet="Distrito" />
+      <End Role="Candidato" EntitySet="Candidato" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Candidato_PartidoPolitico" Association="Self.FK_Candidato_PartidoPolitico">
+      <End Role="PartidoPolitico" EntitySet="PartidoPolitico" />
+      <End Role="Candidato" EntitySet="Candidato" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

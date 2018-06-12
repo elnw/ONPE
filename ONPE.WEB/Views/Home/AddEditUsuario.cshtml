@@ -1,0 +1,44 @@
+﻿@model ONPE.WEB.ViewModel.AddEditUsuarioViewModel
+@{
+    ViewBag.Title = "Gestionar Usuario";
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+        <form role="form" method="post" action="@Url.Action("AddEditUsuario")">
+            @Html.HiddenFor(x=>x.UsuarioId)
+            
+            @Html.HiddenFor(x=>x.estado)
+            <div class="form-group">
+                <label>Nombre</label>
+                @Html.TextBoxFor(X => X.Nombre, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Apellido</label>
+                @Html.TextBoxFor(X => X.ApellidoM, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Codigo</label>
+                @Html.TextBoxFor(X => X.codigo, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                @Html.TextBoxFor(X => X.password, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>ROL</label>
+                @Html.TextBoxFor(X => X.rol, new { @class = "form-control" })
+            </div>
+   
+            <button type="submit" class="btn btn-primary">
+                <i class="fa fa-save"></i>&nbsp;Guardar
+            </button>
+            <a class="btn btn-primary" href="@Url.Action("ListarUsuarios")">
+                <i class="fa fa-arrow-left"></i>&nbsp;Regresar
+            </a>
+        </form>
+    </div>
+</div>
+
+

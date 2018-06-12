@@ -1,0 +1,39 @@
+﻿@model ONPE.WEB.ViewModel.AddEditCandidatoViewModel
+@{
+    ViewBag.Title = "Candidato";
+}
+
+<div class="row">
+    <div class="col-md-12">
+          
+        <form role="form" method="post" action="@Url.Action("AddEditCandidato")">
+            @Html.HiddenFor(X => X.CandidatoId)
+            <div class="form-group">
+                <label>Nombres</label>
+                @Html.TextBoxFor(X => X.Nombres, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Apellidos</label>
+                @Html.TextBoxFor(X => X.Apellidos, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Distrito</label>
+                @Html.DropDownListFor(X => X.DistritoId, 
+               new SelectList(Model.ListDistrito, "DistritoId", "Nombre"), 
+               "[-Seleccione-]", new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Partido Político</label>
+                @Html.DropDownListFor(X => X.PartidoPoliticoId,
+               new SelectList(Model.ListPartidoPolitico, "PartidoPoliticoId", "Nombre"),
+               "[-Seleccione-]", new { @class = "form-control" })
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <i class="fa fa-save"></i>&nbsp;Guardar
+            </button>
+            <a class="btn btn-primary" href="@Url.Action("LstCandidato")">
+                <i class="fa fa-arrow-left"></i>&nbsp;Regresar
+            </a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@model ONPE.WEB.ViewModel.LstDistritoViewModel
+@{
+    ViewBag.Title = "LstDistrito";
+    ViewBag.Section = "DIstrito";
+    ViewBag.SubTitle = "Distrito";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-stripped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.LstDistrito)
+                {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td>
+                            <a class="btn btn-default" href="@Url.Action("AddEditDistrito",new { DistritoID=item.DistritoId})">
+                                <i class="fa fa-edit"></i>&nbsp;Editar
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-default" href="@Url.Action("EliminarDistrito",new { DistritoID=item.DistritoId})">
+                                <i class="fa fa-trash"></i>>&nbsp;Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+        <a class="btn btn-primary" href="@Url.Action("AddEditDistrito")">
+            <i class="fa fa-plus"></i>&nbsp;Agregar
+        </a>
+    </div>
+</div>

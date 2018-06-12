@@ -1,0 +1,6 @@
+projectKey=onpe
+serverUrl=http://localhost:9000
+serverVersion=6.7.3.38370
+dashboardUrl=http://localhost:9000/dashboard/index/onpe
+ceTaskId=AWMkDRIil3YT7nWHpo0u
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWMkDRIil3YT7nWHpo0u

@@ -1,0 +1,410 @@
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\ApplicationInsights.config
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\csc.exe
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\System.Collections.Immutable.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\System.Reflection.Metadata.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\vbc.exe
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe.config
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\ONPE.WEB.dll.config
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\ONPE.WEB.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\ONPE.WEB.pdb
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Antlr3.Runtime.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\EntityFramework.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.Agent.Intercept.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Web.Infrastructure.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Newtonsoft.Json.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Owin.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.Helpers.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.Mvc.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.Optimization.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.Razor.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.WebPages.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\WebGrease.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.Helpers.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.Mvc.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.Optimization.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.Razor.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.WebPages.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Antlr3.Runtime.pdb
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Newtonsoft.Json.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\EntityFramework.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\_JAYLLI\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.csprojResolveAssemblyReference.cache
+E:\_JAYLLI\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.dll
+E:\_JAYLLI\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.pdb
+E:\git gud\New folder\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.csprojResolveAssemblyReference.cache
+E:\git gud\New folder\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.pdb
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\ApplicationInsights.config
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\csc.exe
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\System.Collections.Immutable.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\System.Reflection.Metadata.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\vbc.exe
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe.config
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\ONPE.WEB.dll.config
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\ONPE.WEB.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\ONPE.WEB.pdb
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Antlr3.Runtime.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\EntityFramework.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.Agent.Intercept.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Web.Infrastructure.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Newtonsoft.Json.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Owin.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.Helpers.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.Mvc.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.Optimization.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.Razor.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.WebPages.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\WebGrease.dll
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.Helpers.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.Mvc.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.Optimization.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.Razor.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.WebPages.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Antlr3.Runtime.pdb
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Newtonsoft.Json.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\EntityFramework.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.xml
+E:\git gud\New folder\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\ApplicationInsights.config
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\csc.exe
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\vbc.exe
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\ONPE.WEB.dll.config
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\ONPE.WEB.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\ONPE.WEB.pdb
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Antlr3.Runtime.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\EntityFramework.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Newtonsoft.Json.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Owin.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.Helpers.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.Mvc.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.Optimization.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.Razor.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.WebPages.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\WebGrease.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.Helpers.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.Mvc.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.Optimization.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.Razor.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.WebPages.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Antlr3.Runtime.pdb
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Newtonsoft.Json.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\EntityFramework.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.csprojResolveAssemblyReference.cache
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.pdb
+E:\git gud\ONPE\ONPE.WEB\bin\ApplicationInsights.config
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\csc.exe
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\System.Collections.Immutable.dll
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\System.Reflection.Metadata.dll
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\vbc.exe
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe
+E:\git gud\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe.config
+E:\git gud\ONPE\ONPE.WEB\bin\ONPE.WEB.dll.config
+E:\git gud\ONPE\ONPE.WEB\bin\ONPE.WEB.dll
+E:\git gud\ONPE\ONPE.WEB\bin\ONPE.WEB.pdb
+E:\git gud\ONPE\ONPE.WEB\bin\Antlr3.Runtime.dll
+E:\git gud\ONPE\ONPE.WEB\bin\EntityFramework.dll
+E:\git gud\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.Agent.Intercept.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Web.Infrastructure.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Newtonsoft.Json.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Owin.dll
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.Helpers.dll
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.Mvc.dll
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.Optimization.dll
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.Razor.dll
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.dll
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.WebPages.dll
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.dll
+E:\git gud\ONPE\ONPE.WEB\bin\WebGrease.dll
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.Helpers.xml
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.Mvc.xml
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.Optimization.xml
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.Razor.xml
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.WebPages.xml
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.xml
+E:\git gud\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Antlr3.Runtime.pdb
+E:\git gud\ONPE\ONPE.WEB\bin\Newtonsoft.Json.xml
+E:\git gud\ONPE\ONPE.WEB\bin\EntityFramework.xml
+E:\git gud\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.xml
+E:\git gud\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\git gud\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.csprojResolveAssemblyReference.cache
+E:\git gud\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.dll
+E:\git gud\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.pdb
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\ApplicationInsights.config
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\csc.exe
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\vbc.exe
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\ONPE.WEB.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\ONPE.WEB.pdb
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Antlr3.Runtime.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\EntityFramework.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Newtonsoft.Json.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Owin.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.Helpers.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.Mvc.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.Optimization.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.Razor.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.WebPages.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\WebGrease.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.Web.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.ApplicationInsights.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.Helpers.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.Mvc.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.Optimization.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.Razor.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.WebPages.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Antlr3.Runtime.pdb
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Newtonsoft.Json.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\EntityFramework.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\EntityFramework.SqlServer.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.csprojResolveAssemblyReference.cache
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\obj\Debug\ONPE.WEB.pdb
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\ONPE.WEB.dll.config

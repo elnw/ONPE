@@ -1,0 +1,45 @@
+﻿@model ONPE.WEB.ViewModel.ListarUsuariosViewModel
+@{
+    ViewBag.Title = "Listar Usuarios";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-stripped">
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Codigo</th>
+                    <th>Rol</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListaUsuarios)
+                {
+                    <tr>
+                        <td>@item.Nombres</td>
+                        <td>@item.Apellidos</td>
+                        <td>@item.Codigo</td>
+                        <td>@item.Rol</td>
+                        <td>
+                            <a class="btn btn-default" href="@Url.Action("AddEditUsuario",new { UsuarioId=item.UsuariosId})">
+                                <i class="fa fa-edit"></i>&nbsp;Editar
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-default" href="@Url.Action("EliminarUsuario",new { UsuarioId=item.UsuariosId})">
+                                <i class="fa fa-trash"></i>>&nbsp;Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+        <a class="btn btn-primary" href="@Url.Action("AddEditUsuario")">
+            <i class="fa fa-plus"></i>&nbsp;Agregar
+        </a>
+    </div>
+</div>
+

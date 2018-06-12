@@ -1,0 +1,39 @@
+﻿@model ONPE.WEB.ViewModel.LstPartidoPoliticoViewModel
+@{
+    ViewBag.Title = "LstPartidoPolitico";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Estado</th>
+                 
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.listParitdo)
+                {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td>@item.Estado</td>
+                      
+                        <td>
+                            <a class="btn btn-default"
+                               href="@Url.Action("AddEditPartidoPolitico",
+                                    new { PartidoPoliticoId = item.PartidoPoliticoId })">
+                                <i class="fa fa-edit"></i>&nbsp;Editar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a class="btn btn-primary" href="@Url.Action("AddEditPartidoPolitico")">
+            <i class="fa fa-plus"></i>&nbsp;Agregar
+        </a>
+    </div>
+</div>
+
