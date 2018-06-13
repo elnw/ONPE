@@ -20,12 +20,12 @@
                     <tr>
                         <td>@item.Nombre</td>
                         <td>
-                            <a class="btn btn-default" href="@Url.Action("AddEditDistrito",new { DistritoID=item.DistritoId})">
+                            <a class="btn btn-default" id=@("btnActualizar"+ item.DistritoId ) href="@Url.Action("AddEditDistrito",new { DistritoID=item.DistritoId})">
                                 <i class="fa fa-edit"></i>&nbsp;Editar
                             </a>
                         </td>
                         <td>
-                            <a class="btn btn-default" href="@Url.Action("EliminarDistrito",new { DistritoID=item.DistritoId})">
+                            <a class="btn btn-default" id=@("btnEliminar" + item.DistritoId) href="@Url.Action("EliminarDistrito",new { DistritoID=item.DistritoId})">
                                 <i class="fa fa-trash"></i>>&nbsp;Eliminar
                             </a>
                         </td>
@@ -34,7 +34,7 @@
             </tbody>
 
         </table>
-        <a class="btn btn-primary" href="@Url.Action("AddEditDistrito")">
+        <a class="btn btn-primary" id="btnNuevo" href="@Url.Action("AddEditDistrito")">
             <i class="fa fa-plus"></i>&nbsp;Agregar
         </a>
     </div>
