@@ -150,12 +150,13 @@ namespace ONPE.WEB.Controllers
                 }
 
                 context.SaveChanges();
-                TempData["Mensaje"] = "Exito! La operacion se ejecutó satisfactoriamente";
+                TempData["Mensaje"] = "Distrito guardado";
                 return RedirectToAction("LstDistrito");
 
             }
             catch (Exception ex)
             {
+                TempData["Mensaje"] = "Campo(s) incompleto(s)";
                 return View(objViewModel);
             }
 
@@ -169,7 +170,8 @@ namespace ONPE.WEB.Controllers
             ONPEEntities context = new ONPEEntities();
             var distritoElminar = context.Distrito.Find(DistritoId);
             distritoElminar.Estado = "INA";
-            context.SaveChanges();
+            context.SaveChanges(); 
+            TempData["Mensaje"] = "Distrito eliminado";
             return RedirectToAction("LstDistrito");
            
         }
