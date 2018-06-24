@@ -18,7 +18,7 @@ namespace ONPE.WEB.ViewModel
 
         public void CargarDatos(int? PartidoPoliticoId)
         {
-            ONPEEntities context = new ONPEEntities();
+            ONPEWEBEntities context = new ONPEWEBEntities();
 
             this.PartidoPoliticoId = PartidoPoliticoId;
            

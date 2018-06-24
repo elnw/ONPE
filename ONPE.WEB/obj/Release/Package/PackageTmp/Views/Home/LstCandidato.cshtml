@@ -1,0 +1,57 @@
+﻿@model ONPE.WEB.ViewModel.LstCandidatoViewModel
+@{
+    ViewBag.Title = "Candidato";
+    ViewBag.Section = "Candidato";
+    ViewBag.SubTitle = "Lista de Candidatos";
+    ViewBag.tugfa = "Candidato";
+}
+
+@section Breadcrumbs{
+    <li>
+        <a href="@Url.Action("LstCandidato")">Candidatos</a>
+    </li>
+    }
+
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>P. Político</th>
+                    <th>Distrito</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListCandidato)
+                {
+                    <tr>
+                        <td>@item.Nombres</td>
+                        <td>@item.Apellidos</td>
+                        <td>@item.Estado</td>
+                        <td>@item.PartidoPolitico.Nombre</td>
+                        <td>@item.Distrito.Nombre</td>
+                        <td>
+                            <a class="btn btn-default" 
+                               href="@Url.Action("AddEditCandidato", 
+                                    new { CandidatoId = item.CandidatoId })">
+                                <i class="fa fa-edit"></i>&nbsp;Editar
+                            </a> 
+                        </td>
+                        <td>
+                            <a class="btn btn-default" href="@Url.Action("EliminarCandidato",new { CandidatoId=item.CandidatoId})">
+                                <i class="fa fa-trash"></i>>&nbsp;Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>  
+        <a class="btn btn-primary" id="btnNuevo" href="@Url.Action("AddEditCandidato")">
+            <i class="fa fa-plus"></i>&nbsp;Agregar
+        </a>  
+    </div>
+</div>

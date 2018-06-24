@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="ONPEModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="ONPEEWEBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Candidato">
           <Key>
             <PropertyRef Name="CandidatoId" />
@@ -68,7 +68,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="ONPEModelStoreContainer">
+        <EntityContainer Name="ONPEEWEBModelStoreContainer">
           <EntitySet Name="Candidato" EntityType="Self.Candidato" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Distrito" EntityType="Self.Distrito" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="PartidoPolitico" EntityType="Self.PartidoPolitico" Schema="dbo" store:Type="Tables" />
@@ -82,70 +82,57 @@
             <End Role="Candidato" EntitySet="Candidato" />
           </AssociationSet>
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="ONPEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="ONPEEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Candidato" EntityType="ONPEModel.Candidato" />
-          <EntitySet Name="Distrito" EntityType="ONPEModel.Distrito" />
-          <EntitySet Name="PartidoPolitico" EntityType="ONPEModel.PartidoPolitico" />
-          <EntitySet Name="Usuarios" EntityType="ONPEModel.Usuarios" />
-          <AssociationSet Name="FK_Candidato_Distrito" Association="ONPEModel.FK_Candidato_Distrito">
-            <End Role="Distrito" EntitySet="Distrito" />
-            <End Role="Candidato" EntitySet="Candidato" />
-          </AssociationSet>
-          <AssociationSet Name="FK_Candidato_PartidoPolitico" Association="ONPEModel.FK_Candidato_PartidoPolitico">
-            <End Role="PartidoPolitico" EntitySet="PartidoPolitico" />
-            <End Role="Candidato" EntitySet="Candidato" />
-          </AssociationSet>
-        </EntityContainer>
+      <Schema Namespace="ONPEEWEBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="Candidato">
           <Key>
             <PropertyRef Name="CandidatoId" />
           </Key>
           <Property Name="CandidatoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Nombres" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="Apellidos" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Nombres" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Apellidos" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="PartidoPoliticoId" Type="Int32" Nullable="false" />
           <Property Name="DistritoId" Type="Int32" Nullable="false" />
-          <Property Name="Estado" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="Distrito" Relationship="ONPEModel.FK_Candidato_Distrito" FromRole="Candidato" ToRole="Distrito" />
-          <NavigationProperty Name="PartidoPolitico" Relationship="ONPEModel.FK_Candidato_PartidoPolitico" FromRole="Candidato" ToRole="PartidoPolitico" />
+          <Property Name="Estado" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Distrito" Relationship="Self.FK_Candidato_Distrito" FromRole="Candidato" ToRole="Distrito" />
+          <NavigationProperty Name="PartidoPolitico" Relationship="Self.FK_Candidato_PartidoPolitico" FromRole="Candidato" ToRole="PartidoPolitico" />
         </EntityType>
         <EntityType Name="Distrito">
           <Key>
             <PropertyRef Name="DistritoId" />
           </Key>
           <Property Name="DistritoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Estado" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="Candidato" Relationship="ONPEModel.FK_Candidato_Distrito" FromRole="Distrito" ToRole="Candidato" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Candidato" Relationship="Self.FK_Candidato_Distrito" FromRole="Distrito" ToRole="Candidato" />
         </EntityType>
         <EntityType Name="PartidoPolitico">
           <Key>
             <PropertyRef Name="PartidoPoliticoId" />
           </Key>
           <Property Name="PartidoPoliticoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Estado" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="Candidato" Relationship="ONPEModel.FK_Candidato_PartidoPolitico" FromRole="PartidoPolitico" ToRole="Candidato" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Candidato" Relationship="Self.FK_Candidato_PartidoPolitico" FromRole="PartidoPolitico" ToRole="Candidato" />
         </EntityType>
         <EntityType Name="Usuarios">
           <Key>
             <PropertyRef Name="UsuariosId" />
           </Key>
           <Property Name="UsuariosId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Nombres" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Apellidos" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Codigo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Rol" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
-          <Property Name="Estado" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Nombres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Apellidos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Codigo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Rol" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
         </EntityType>
         <Association Name="FK_Candidato_Distrito">
-          <End Type="ONPEModel.Distrito" Role="Distrito" Multiplicity="1" />
-          <End Type="ONPEModel.Candidato" Role="Candidato" Multiplicity="*" />
+          <End Role="Distrito" Type="Self.Distrito" Multiplicity="1" />
+          <End Role="Candidato" Type="Self.Candidato" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Distrito">
               <PropertyRef Name="DistritoId" />
@@ -156,8 +143,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Candidato_PartidoPolitico">
-          <End Type="ONPEModel.PartidoPolitico" Role="PartidoPolitico" Multiplicity="1" />
-          <End Type="ONPEModel.Candidato" Role="Candidato" Multiplicity="*" />
+          <End Role="PartidoPolitico" Type="Self.PartidoPolitico" Multiplicity="1" />
+          <End Role="Candidato" Type="Self.Candidato" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="PartidoPolitico">
               <PropertyRef Name="PartidoPoliticoId" />
@@ -167,52 +154,66 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        </Schema>
+        <EntityContainer Name="ONPEWEBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Candidato" EntityType="Self.Candidato" />
+          <EntitySet Name="Distrito" EntityType="Self.Distrito" />
+          <EntitySet Name="PartidoPolitico" EntityType="Self.PartidoPolitico" />
+          <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+          <AssociationSet Name="FK_Candidato_Distrito" Association="Self.FK_Candidato_Distrito">
+            <End Role="Distrito" EntitySet="Distrito" />
+            <End Role="Candidato" EntitySet="Candidato" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Candidato_PartidoPolitico" Association="Self.FK_Candidato_PartidoPolitico">
+            <End Role="PartidoPolitico" EntitySet="PartidoPolitico" />
+            <End Role="Candidato" EntitySet="Candidato" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ONPEModelStoreContainer" CdmEntityContainer="ONPEEntities">
+        <EntityContainerMapping StorageEntityContainer="ONPEEWEBModelStoreContainer" CdmEntityContainer="ONPEWEBEntities">
           <EntitySetMapping Name="Candidato">
-            <EntityTypeMapping TypeName="ONPEModel.Candidato">
+            <EntityTypeMapping TypeName="ONPEEWEBModel.Candidato">
               <MappingFragment StoreEntitySet="Candidato">
-                <ScalarProperty Name="Estado" ColumnName="Estado" />
-                <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
-                <ScalarProperty Name="PartidoPoliticoId" ColumnName="PartidoPoliticoId" />
-                <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
-                <ScalarProperty Name="Nombres" ColumnName="Nombres" />
                 <ScalarProperty Name="CandidatoId" ColumnName="CandidatoId" />
+                <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+                <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+                <ScalarProperty Name="PartidoPoliticoId" ColumnName="PartidoPoliticoId" />
+                <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Distrito">
-            <EntityTypeMapping TypeName="ONPEModel.Distrito">
+            <EntityTypeMapping TypeName="ONPEEWEBModel.Distrito">
               <MappingFragment StoreEntitySet="Distrito">
-                <ScalarProperty Name="Estado" ColumnName="Estado" />
-                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PartidoPolitico">
-            <EntityTypeMapping TypeName="ONPEModel.PartidoPolitico">
+            <EntityTypeMapping TypeName="ONPEEWEBModel.PartidoPolitico">
               <MappingFragment StoreEntitySet="PartidoPolitico">
-                <ScalarProperty Name="Estado" ColumnName="Estado" />
-                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="PartidoPoliticoId" ColumnName="PartidoPoliticoId" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Usuarios">
-            <EntityTypeMapping TypeName="ONPEModel.Usuarios">
+            <EntityTypeMapping TypeName="ONPEEWEBModel.Usuarios">
               <MappingFragment StoreEntitySet="Usuarios">
-                <ScalarProperty Name="Estado" ColumnName="Estado" />
-                <ScalarProperty Name="Rol" ColumnName="Rol" />
-                <ScalarProperty Name="Password" ColumnName="Password" />
-                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
-                <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
-                <ScalarProperty Name="Nombres" ColumnName="Nombres" />
                 <ScalarProperty Name="UsuariosId" ColumnName="UsuariosId" />
+                <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+                <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Rol" ColumnName="Rol" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

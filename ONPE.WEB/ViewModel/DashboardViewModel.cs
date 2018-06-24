@@ -15,7 +15,7 @@ namespace ONPE.WEB.ViewModel
 
         public DashboardViewModel(Usuarios objUsuario)
         {
-            ONPEEntities context = new ONPEEntities();
+            ONPEWEBEntities context = new ONPEWEBEntities();
 
             if(objUsuario.Rol == "ADM")
             {

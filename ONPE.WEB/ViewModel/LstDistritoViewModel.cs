@@ -12,7 +12,7 @@ namespace ONPE.WEB.ViewModel
 
         public LstDistritoViewModel()
         {
-            ONPEEntities context = new ONPEEntities();
+            ONPEWEBEntities context = new ONPEWEBEntities();
             //cambios
            
             LstDistrito = context.Distrito.Where(x=>x.Estado!="INA").ToList();

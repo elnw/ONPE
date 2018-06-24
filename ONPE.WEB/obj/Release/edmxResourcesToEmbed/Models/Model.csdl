@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ONPEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ONPEEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Candidato" EntityType="ONPEModel.Candidato" />
+    <EntitySet Name="Distrito" EntityType="ONPEModel.Distrito" />
+    <EntitySet Name="PartidoPolitico" EntityType="ONPEModel.PartidoPolitico" />
+    <EntitySet Name="Usuarios" EntityType="ONPEModel.Usuarios" />
+    <AssociationSet Name="FK_Candidato_Distrito" Association="ONPEModel.FK_Candidato_Distrito">
+      <End Role="Distrito" EntitySet="Distrito" />
+      <End Role="Candidato" EntitySet="Candidato" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Candidato_PartidoPolitico" Association="ONPEModel.FK_Candidato_PartidoPolitico">
+      <End Role="PartidoPolitico" EntitySet="PartidoPolitico" />
+      <End Role="Candidato" EntitySet="Candidato" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Candidato">
+    <Key>
+      <PropertyRef Name="CandidatoId" />
+    </Key>
+    <Property Name="CandidatoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombres" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Apellidos" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="PartidoPoliticoId" Type="Int32" Nullable="false" />
+    <Property Name="DistritoId" Type="Int32" Nullable="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Distrito" Relationship="ONPEModel.FK_Candidato_Distrito" FromRole="Candidato" ToRole="Distrito" />
+    <NavigationProperty Name="PartidoPolitico" Relationship="ONPEModel.FK_Candidato_PartidoPolitico" FromRole="Candidato" ToRole="PartidoPolitico" />
+  </EntityType>
+  <EntityType Name="Distrito">
+    <Key>
+      <PropertyRef Name="DistritoId" />
+    </Key>
+    <Property Name="DistritoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Candidato" Relationship="ONPEModel.FK_Candidato_Distrito" FromRole="Distrito" ToRole="Candidato" />
+  </EntityType>
+  <EntityType Name="PartidoPolitico">
+    <Key>
+      <PropertyRef Name="PartidoPoliticoId" />
+    </Key>
+    <Property Name="PartidoPoliticoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Candidato" Relationship="ONPEModel.FK_Candidato_PartidoPolitico" FromRole="PartidoPolitico" ToRole="Candidato" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="UsuariosId" />
+    </Key>
+    <Property Name="UsuariosId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombres" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellidos" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Codigo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Rol" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Candidato_Distrito">
+    <End Type="ONPEModel.Distrito" Role="Distrito" Multiplicity="1" />
+    <End Type="ONPEModel.Candidato" Role="Candidato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Distrito">
+        <PropertyRef Name="DistritoId" />
+      </Principal>
+      <Dependent Role="Candidato">
+        <PropertyRef Name="DistritoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Candidato_PartidoPolitico">
+    <End Type="ONPEModel.PartidoPolitico" Role="PartidoPolitico" Multiplicity="1" />
+    <End Type="ONPEModel.Candidato" Role="Candidato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PartidoPolitico">
+        <PropertyRef Name="PartidoPoliticoId" />
+      </Principal>
+      <Dependent Role="Candidato">
+        <PropertyRef Name="PartidoPoliticoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

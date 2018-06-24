@@ -9,7 +9,7 @@ namespace ONPE.WEB.ViewModel
     {
         public static void AddEditUsuario(AddEditUsuarioViewModel model)
         {
-            ONPEEntities context = new ONPEEntities();
+            ONPEWEBEntities context = new ONPEWEBEntities();
             var obj = new Usuarios();
             var candidato = new Candidato();
             if (model.UsuarioId.HasValue)
@@ -26,14 +26,14 @@ namespace ONPE.WEB.ViewModel
             }
 
             obj.Nombres = model.Nombre;
-            obj.Apellidos = model.ApellidoM;
+            obj.Apellidos = model.Apellido;
             obj.Codigo = model.codigo;
             obj.Password = model.password;
             obj.Rol = model.rol;
             if (candidato != null)
             {
                 candidato.Nombres = model.Nombre;
-                candidato.Apellidos = model.ApellidoM;
+                candidato.Apellidos = model.Apellido;
             }
 
 

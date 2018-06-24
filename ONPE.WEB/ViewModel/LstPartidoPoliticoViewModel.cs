@@ -12,8 +12,9 @@ namespace ONPE.WEB.ViewModel
 
         public LstPartidoPoliticoViewModel()
         {
-            ONPEEntities context = new ONPEEntities();
-            listParitdo = context.PartidoPolitico.ToList();
+
+            ONPEWEBEntities context = new ONPEWEBEntities();
+            listParitdo = context.PartidoPolitico.Where(x => x.Estado != "INA").ToList();
         }
     }
 }

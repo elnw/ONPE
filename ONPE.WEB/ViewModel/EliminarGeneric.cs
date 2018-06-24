@@ -9,7 +9,7 @@ namespace ONPE.WEB.ViewModel
     {
         public static void eliminarEntidad(Int32 entidadId, String tabla)
         {
-            ONPEEntities context = new ONPEEntities();
+            ONPEWEBEntities context = new ONPEWEBEntities();
             switch (tabla)
             {
                 case "Usuario":

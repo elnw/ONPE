@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

@@ -13,8 +13,8 @@ namespace ONPE.WEB.ViewModel
 
         public LstCandidatoViewModel()
         {
-            ONPEEntities context = new ONPEEntities();
-            ListCandidato = context.Candidato.ToList();
+            ONPEWEBEntities context = new ONPEWEBEntities();
+            ListCandidato = context.Candidato.Where(x => x.Estado != "INA").ToList();
         }
         public List<Candidato> getList()
         {

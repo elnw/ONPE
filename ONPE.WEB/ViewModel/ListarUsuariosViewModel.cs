@@ -11,7 +11,7 @@ namespace ONPE.WEB.ViewModel
 
         public void Fill()
         {
-            ONPEEntities context = new ONPEEntities();
+            ONPEWEBEntities context = new ONPEWEBEntities();
             ListaUsuarios = context.Usuarios.Where(x=>x.Estado=="ACT").ToList();
 
         }

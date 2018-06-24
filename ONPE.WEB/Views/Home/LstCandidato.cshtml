@@ -31,20 +31,26 @@
                     <tr>
                         <td>@item.Nombres</td>
                         <td>@item.Apellidos</td>
+                        <td>@item.Estado</td>
                         <td>@item.PartidoPolitico.Nombre</td>
                         <td>@item.Distrito.Nombre</td>
                         <td>
-                            <a class="btn btn-default" 
+                           <!-- <a class="btn btn-default" 
                                href="@Url.Action("AddEditCandidato", 
                                     new { CandidatoId = item.CandidatoId })">
                                 <i class="fa fa-edit"></i>&nbsp;Editar
-                            </a> 
+                            </a> -->
+                        </td>
+                        <td>
+                            <a class="btn btn-default" href="@Url.Action("EliminarCandidato",new { CandidatoId=item.CandidatoId})">
+                                <i class="fa fa-trash"></i>>&nbsp;Eliminar
+                            </a>
                         </td>
                     </tr>
                 }
             </tbody>
         </table>  
-        <a class="btn btn-primary" href="@Url.Action("AddEditCandidato")">
+        <a class="btn btn-primary" id="btnNuevo" href="@Url.Action("AddEditCandidato")">
             <i class="fa fa-plus"></i>&nbsp;Agregar
         </a>  
     </div>

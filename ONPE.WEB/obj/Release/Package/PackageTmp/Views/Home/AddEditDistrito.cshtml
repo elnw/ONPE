@@ -1,0 +1,25 @@
+﻿@model ONPE.WEB.ViewModel.AddEditDistritoViewModel
+
+@{
+    ViewBag.Title = "AddEditDistrito";
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+        <form role="form" method="post" action="@Url.Action("AddEditDistrito")">
+            @Html.HiddenFor(X => X.DistritoId)
+            <div class="form-group">
+                <label>Nombre</label>
+                @Html.TextBoxFor(X => X.nombre, new { @class = "form-control", id = "nombre" })
+            </div>
+
+            <button type="submit" id="btnGuardar" class="btn btn-primary">
+                <i class="fa fa-save"></i>&nbsp;Guardar
+            </button>
+            <a class="btn btn-primary" href="@Url.Action("LstDistrito")">
+                <i class="fa fa-arrow-left"></i>&nbsp;Regresar
+            </a>
+        </form>
+    </div>
+</div>

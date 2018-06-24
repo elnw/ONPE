@@ -38,6 +38,7 @@ namespace ONPE.WEB.Controllers
             AddEditCandidatoViewModel objViewModel = new AddEditCandidatoViewModel();
             objViewModel.CargarDatos(CandidatoId);
             return View(objViewModel);
+
         }
 
         [HttpPost]
@@ -46,7 +47,8 @@ namespace ONPE.WEB.Controllers
         {
             try
             {
-                ONPEEntities context = new ONPEEntities();
+                
+                ONPEWEBEntities context = new ONPEWEBEntities();
                 Candidato objCandidato = new Candidato();
 
                 if (objViewModel.CandidatoId.HasValue)
@@ -59,26 +61,32 @@ namespace ONPE.WEB.Controllers
                 }
                 else
                 {
+                    objCandidato.Nombres = objViewModel.Nombres;
+                    objCandidato.Apellidos = objViewModel.Apellidos;
+                    objCandidato.DistritoId = objViewModel.DistritoId;
+                    objCandidato.PartidoPoliticoId = objViewModel.PartidoPoliticoId;
+                    objCandidato.Estado = "ACT";
                     context.Candidato.Add(objCandidato);
                 }
-                objCandidato.Nombres = objViewModel.Nombres;
-                objCandidato.Apellidos = objViewModel.Apellidos;
-                objCandidato.DistritoId = objViewModel.DistritoId;
-                objCandidato.PartidoPoliticoId = objViewModel.PartidoPoliticoId;
-                objCandidato.Estado = "ACT";
                 context.SaveChanges();
-                TempData["Mensaje"] = "Exito! La operacion se ejecutó satisfactoriamente";
+                TempData["Mensaje"] = "Candidato guardado";
                 return RedirectToAction("LstCandidato");
 
             }catch(Exception ex)
             {
+
+                TempData["Mensaje"] = "Campo(s) incompleto(s)";
                 return View(objViewModel);
             }
         }
 
         public ActionResult EliminarCandidato(Int32 CandidatoId)
         {
-            EliminarGeneric.eliminarEntidad(CandidatoId, "Candidato");
+            ONPEWEBEntities context = new ONPEWEBEntities();
+            var candidatoElminar = context.Candidato.Find(CandidatoId);
+            candidatoElminar.Estado = "INA";
+            context.SaveChanges();
+            TempData["Mensaje"] = "Candidato eliminado";
             return RedirectToAction("LstCandidato");
         }
 
@@ -95,7 +103,7 @@ namespace ONPE.WEB.Controllers
         {
             try
             {
-                ONPEEntities context = new ONPEEntities();
+                ONPEWEBEntities context = new ONPEWEBEntities();
                 PartidoPolitico objPartido = new PartidoPolitico();
                 if (objViewModel.PartidoPoliticoId.HasValue)
                 {
@@ -110,17 +118,19 @@ namespace ONPE.WEB.Controllers
                 }
                 
                 context.SaveChanges();
-                TempData["Mensaje"] = "Exito! La operacion se ejecutó satisfactoriamente";
+                TempData["Mensaje"] = "Partido guardado";
                 return RedirectToAction("LstPartidoPolitico");
 
             }
             catch(Exception ex)
             {
+
+                TempData["Mensaje"] = "Campo(s) incompleto(s)";
                 return View(objViewModel);
             }
 
 
-             
+            //A 
         }
         [ONPEAuthorize(Roles.ADMIN)]
         public ActionResult AddEditDistrito(int? DistritoId)
@@ -135,7 +145,7 @@ namespace ONPE.WEB.Controllers
         {
             try
             {
-                ONPEEntities context = new ONPEEntities();
+                ONPEWEBEntities context = new ONPEWEBEntities();
                 Distrito objDistrito = new Distrito();
                if (objViewModel.DistritoId.HasValue)
                {
@@ -167,7 +177,7 @@ namespace ONPE.WEB.Controllers
         [ONPEAuthorize(Roles.ADMIN)]
         public ActionResult EliminarDistrito(int? DistritoId)
         {
-            ONPEEntities context = new ONPEEntities();
+            ONPEWEBEntities context = new ONPEWEBEntities();
             var distritoElminar = context.Distrito.Find(DistritoId);
             distritoElminar.Estado = "INA";
             context.SaveChanges(); 
@@ -201,7 +211,7 @@ namespace ONPE.WEB.Controllers
         {
             try
             {
-                ONPEEntities context = new ONPEEntities();
+                ONPEWEBEntities context = new ONPEWEBEntities();
                 Usuarios objUsuario = context.Usuarios.FirstOrDefault(x => x.Codigo == objViewModel.codigo && x.Password == objViewModel.Password);
                 if (objUsuario == null)
                 {
@@ -241,47 +251,75 @@ namespace ONPE.WEB.Controllers
             return View(objVM);
         }
         [ONPEAuthorize(Roles.ADMIN)]
-        public ActionResult AddEditUsuario(Int32? UsuarioId)
+        public ActionResult AddEditUsuario(int? UsuarioId)
         {
-            var obj = new AddEditUsuarioViewModel();
-            obj.Fill(UsuarioId);
-            return View(obj);
+            AddEditUsuarioViewModel objViewModel = new AddEditUsuarioViewModel();
+            objViewModel.CargarDatos(UsuarioId);
+            return View(objViewModel);
 
         }
 
         [HttpPost]
-        public ActionResult AddEditUsuario(AddEditUsuarioViewModel model)
+        public ActionResult AddEditUsuario(AddEditUsuarioViewModel objViewModel)
         {
+     
             try
             {
-                AddEditGeneric.AddEditUsuario(model);
-            }catch(Exception ex)
+                ONPEWEBEntities context = new ONPEWEBEntities();
+                Usuarios objUsuario = new Usuarios();
+                if (objViewModel.UsuarioId.HasValue)
+                {
+                    objUsuario = context.Usuarios.FirstOrDefault(X => X.UsuariosId == objViewModel.UsuarioId);
+                    objUsuario.Nombres = objViewModel.Nombre;
+                    objUsuario.Apellidos = objViewModel.Apellido;
+                    objUsuario.Codigo = objViewModel.codigo;
+                    objUsuario.Password = objViewModel.password;
+                    objUsuario.Rol = objViewModel.rol;
+                }
+                else
+                {
+                    objUsuario.Nombres = objViewModel.Nombre;
+                    objUsuario.Apellidos = objViewModel.Apellido;
+                    objUsuario.Codigo = objViewModel.codigo;
+                    objUsuario.Password = objViewModel.password;
+                    objUsuario.Rol = objViewModel.rol;
+                    objUsuario.Estado = "ACT";
+                    context.Usuarios.Add(objUsuario);
+                }
+                context.SaveChanges();
+                TempData["Mensaje"] = "Usuario guardado";
+                return RedirectToAction("ListarUsuarios");
+
+
+            }
+            catch (Exception ex)
             {
-                return RedirectToAction("AddEditUsuario");
-            }
-            
-            
 
-            return RedirectToAction("ListarUsuarios");
-
+                TempData["Mensaje"] = "Campo(s) incompleto(s)";
+                return View(objViewModel);
             }
+         }
         [ONPEAuthorize(Roles.ADMIN)]
-        public ActionResult EliminarUsuario(Int32 UsuarioId)
+        public ActionResult EliminarUsuario(int UsuarioId)
         {
-            EliminarGeneric.eliminarEntidad(UsuarioId, "Usuario");
-
-
+            ONPEWEBEntities context = new ONPEWEBEntities();
+            var usuarioEliminar = context.Usuarios.Find(UsuarioId);
+            usuarioEliminar.Estado = "INA";
+            context.SaveChanges();
+            TempData["Mensaje"] = "Usuario eliminado";
             return RedirectToAction("ListarUsuarios");
         }
 
         [ONPEAuthorize(Roles.ADMIN)]
-        public ActionResult EliminarPartidoPolitico(Int32 PartidoId)
+        public ActionResult EliminarPartidoPolitico(Int32 PartidoPoliticoId)
         {
-            EliminarGeneric.eliminarEntidad(PartidoId, "PartidoPolitico");
+            ONPEWEBEntities context = new ONPEWEBEntities();
+            var partidooElminar = context.PartidoPolitico.Find(PartidoPoliticoId);
+            partidooElminar.Estado = "INA";
+            context.SaveChanges();
+            TempData["Mensaje"] = "Partido eliminado";
             return RedirectToAction("LstPartidoPolitico");
         }
-
-
 
     }
 }

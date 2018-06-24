@@ -23,11 +23,11 @@ namespace ONPE.WEB.ViewModel
 
         public void CargarDatos(int? CandidatoId)
         {
-            ONPEEntities context = new ONPEEntities();
+            ONPEWEBEntities context = new ONPEWEBEntities();
 
             this.CandidatoId = CandidatoId;
-            this.ListDistrito = context.Distrito.ToList();
-            this.ListPartidoPolitico = context.PartidoPolitico.ToList();
+            this.ListDistrito = context.Distrito.Where(x => x.Estado != "INA").ToList();
+            this.ListPartidoPolitico = context.PartidoPolitico.Where(x => x.Estado != "INA").ToList();
 
             if (CandidatoId.HasValue) // SI ES EDITAR
             {

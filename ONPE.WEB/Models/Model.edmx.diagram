@@ -4,13 +4,13 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="f77a4292847849ffbb4f074012c46dcd" Name="Diagram1">
-        <EntityTypeShape EntityType="ONPEModel.Candidato" Width="1.5" PointX="3" PointY="1" />
-        <EntityTypeShape EntityType="ONPEModel.Distrito" Width="1.5" PointX="0.75" PointY="1.375" />
-        <EntityTypeShape EntityType="ONPEModel.PartidoPolitico" Width="1.5" PointX="0.75" PointY="5.375" />
-        <EntityTypeShape EntityType="ONPEModel.Usuarios" Width="1.5" PointX="2.75" PointY="4.75" />
-        <AssociationConnector Association="ONPEModel.FK_Candidato_Distrito" />
-        <AssociationConnector Association="ONPEModel.FK_Candidato_PartidoPolitico" />
+      <Diagram DiagramId="7391d718beab446e97c4f2da2ba15a4d" Name="Diagram1">
+        <EntityTypeShape EntityType="ONPEEWEBModel.Candidato" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ONPEEWEBModel.Distrito" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ONPEEWEBModel.PartidoPolitico" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ONPEEWEBModel.Usuarios" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="ONPEEWEBModel.FK_Candidato_Distrito" ManuallyRouted="false" />
+        <AssociationConnector Association="ONPEEWEBModel.FK_Candidato_PartidoPolitico" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

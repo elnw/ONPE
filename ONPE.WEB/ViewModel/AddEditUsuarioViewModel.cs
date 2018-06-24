@@ -8,29 +8,36 @@ namespace ONPE.WEB.ViewModel
     public class AddEditUsuarioViewModel
     {
    
-        public Int32? UsuarioId { get; set; }
+        public int? UsuarioId { get; set; }
 
         public String Nombre { get; set; }
-        public String ApellidoM { get; set; }
+        public String Apellido { get; set; }
         public String codigo { get; set; }
         public String password { get; set; }
         public String rol { get; set; }
         public String estado { get; set; }
-
-        public void Fill(Int32? usuarioId)
+        public AddEditUsuarioViewModel()
         {
-            UsuarioId = usuarioId;
-            if (UsuarioId.HasValue)
+        }
+        public void CargarDatos(int? usuarioId)
+        {
+            ONPEWEBEntities context = new ONPEWEBEntities();
+
+            this.UsuarioId = usuarioId;
+
+
+
+            if (usuarioId.HasValue) // SI ES EDITAR
             {
-                var context = new ONPEEntities();
-                var obj = new Usuarios();
-                obj = context.Usuarios.Find(UsuarioId);
-                Nombre = obj.Nombres;
-                ApellidoM = obj.Apellidos;
-                codigo = obj.Codigo;
-                password = obj.Password;
-                rol = obj.Rol;
-                estado = obj.Estado;
+                Usuarios objUsuario = context.Usuarios.FirstOrDefault(X => X.UsuariosId == usuarioId);
+                this.UsuarioId = objUsuario.UsuariosId;
+                this.Nombre = objUsuario.Nombres;
+                this.Apellido = objUsuario.Apellidos;
+                this.codigo = objUsuario.Codigo;
+                this.password = objUsuario.Password;
+                this.rol = objUsuario.Rol;
+            
+
             }
         }
     

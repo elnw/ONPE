@@ -13,10 +13,11 @@ namespace ONPE.WEB.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ONPEEntities : DbContext
+    public partial class 
+        ONPEWEBEntities : DbContext
     {
-        public ONPEEntities()
-            : base("name=ONPEEntities")
+        public ONPEWEBEntities()
+            : base("name=ONPEWEBEntities")
         {
         }
     
