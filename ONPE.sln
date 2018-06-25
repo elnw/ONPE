@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ONPE.WEB", "ONPE.WEB\ONPE.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitarios", "TestUnitarios\TestUnitarios.csproj", "{61ADBEC8-F79C-4A69-AC82-F3E79DE5BA0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtestOnpe.TEST", "NtestOnpe.TEST\NtestOnpe.TEST.csproj", "{BB194F90-160D-4A42-8D77-8C8B15CBBC79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,20 +23,12 @@ Global
 		{61ADBEC8-F79C-4A69-AC82-F3E79DE5BA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61ADBEC8-F79C-4A69-AC82-F3E79DE5BA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61ADBEC8-F79C-4A69-AC82-F3E79DE5BA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB194F90-160D-4A42-8D77-8C8B15CBBC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB194F90-160D-4A42-8D77-8C8B15CBBC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB194F90-160D-4A42-8D77-8C8B15CBBC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB194F90-160D-4A42-8D77-8C8B15CBBC79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://614nc4r10.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ONPE.WEB\\ONPE.WEB.csproj
-		SccProjectName1 = ONPE.WEB
-		SccLocalPath1 = ONPE.WEB
-		SccProjectUniqueName2 = TestUnitarios\\TestUnitarios.csproj
-		SccProjectName2 = TestUnitarios
-		SccLocalPath2 = TestUnitarios
 	EndGlobalSection
 EndGlobal

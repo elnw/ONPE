@@ -490,3 +490,6 @@ C:\Fuentes\ONPE-master\ONPE.WEB\bin\System.Web.WebPages.Razor.xml
 C:\Fuentes\ONPE-master\ONPE.WEB\obj\Debug\ONPE.WEB.dll
 C:\Fuentes\ONPE-master\ONPE.WEB\obj\Debug\ONPE.WEB.pdb
 C:\Fuentes\ONPE-master\ONPE.WEB\obj\Debug\ONPE.WEB.csprojResolveAssemblyReference.cache
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\nunit.framework.dll
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\nunit.framework.pdb
+C:\Users\xXeLnWxX\Documents\universidad\web\web onpe\3\ONPE\ONPE.WEB\bin\nunit.framework.xml

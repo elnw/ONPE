@@ -1,46 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="ONPEModelStoreContainer" CdmEntityContainer="ONPEEntities">
+  <EntityContainerMapping StorageEntityContainer="ONPEEWEBModelStoreContainer" CdmEntityContainer="ONPEWEBEntities">
     <EntitySetMapping Name="Candidato">
-      <EntityTypeMapping TypeName="ONPEModel.Candidato">
+      <EntityTypeMapping TypeName="ONPEEWEBModel.Candidato">
         <MappingFragment StoreEntitySet="Candidato">
-          <ScalarProperty Name="Estado" ColumnName="Estado" />
-          <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
-          <ScalarProperty Name="PartidoPoliticoId" ColumnName="PartidoPoliticoId" />
-          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
-          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
           <ScalarProperty Name="CandidatoId" ColumnName="CandidatoId" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="PartidoPoliticoId" ColumnName="PartidoPoliticoId" />
+          <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Distrito">
-      <EntityTypeMapping TypeName="ONPEModel.Distrito">
+      <EntityTypeMapping TypeName="ONPEEWEBModel.Distrito">
         <MappingFragment StoreEntitySet="Distrito">
-          <ScalarProperty Name="Estado" ColumnName="Estado" />
-          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
           <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PartidoPolitico">
-      <EntityTypeMapping TypeName="ONPEModel.PartidoPolitico">
+      <EntityTypeMapping TypeName="ONPEEWEBModel.PartidoPolitico">
         <MappingFragment StoreEntitySet="PartidoPolitico">
-          <ScalarProperty Name="Estado" ColumnName="Estado" />
-          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
           <ScalarProperty Name="PartidoPoliticoId" ColumnName="PartidoPoliticoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Usuarios">
-      <EntityTypeMapping TypeName="ONPEModel.Usuarios">
+      <EntityTypeMapping TypeName="ONPEEWEBModel.Usuarios">
         <MappingFragment StoreEntitySet="Usuarios">
-          <ScalarProperty Name="Estado" ColumnName="Estado" />
-          <ScalarProperty Name="Rol" ColumnName="Rol" />
-          <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
-          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
-          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
           <ScalarProperty Name="UsuariosId" ColumnName="UsuariosId" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
